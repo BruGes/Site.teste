@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.center{
+    max-width: 1100px;
+    margin:  0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    background-color: grey;
+    padding: 20px 0;
+    border-bottom: 1px transparent aqua;
+}
+.logo{
+    color: darkblue;
+}
+.logo h2{
+    font-weight:    bolder;
+    font-size: 28px;
+
+}
+.menu{
+    width: 80%;
+    text-align: right;
+}
+.menu a{
+    color: white;
+    font-size: 16px;
+    margin-right: 20px;
+    
+    
+}
+.menu a:hover{
+    color: aqua;
+    transition: 1s;
+}
+.menu .home{
+    display: inline-block;
+    background-color: blue;
+    padding: 6px 12px;
+    border-radius: 8px;
+}
+.menu .home:hover{
+    background-color: darkblue;
+}
+.menu .sobre{
+    background-color: blue;
+    padding: 6px 12px;
+    border-radius: 8px;
+}
+.menu .sobre:hover{
+    background-color: darkblue;
+}
+.menu .contato{
+    background-color: blue;
+    padding: 6px 12px;
+    border-radius: 8px;
+}
+.menu .contato:hover{
+    background-color: darkblue;
+}
+.menu .items{
+    background-color: blue;
+    padding: 6px 12px;
+    border-radius: 8px;
+}
+.menu .items:hover{
+    background-color: darkblue;
+}
+.menu .sobre{
+    background-color: blue;
+    padding: 6px 12px;
+    border-radius: 8px;
+}
+.menu .sobre:hover{
+    background-color: darkblue;
+}
+
+section.main{
+    background-image: url("banner.png");
+    background-color: #ccc;
+    padding: 100px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main_1{
+    width: 100%;
+    text-align: center;
+    margin: 40px 0;
+    font-size: 40px;
+
+}
+.main_1 h2{
+    color: blue;
+    font-size: 60px;
+}
+.main_1 p{
+    color: black;
+    font-size: 40px;
+    margin: 10px 0;
+}
+.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+}
+.diferencias-single{
+    background-color: darkgrey;
+    width: 23%;
+    margin-right: 2%;
+    padding: 50px 20px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.diferenciais .diferencias-single:hover{
+    background-color: white;
+    transition: 1s;
+}
+.diferenciais .diferencias-single svg{
+    font-size: 10%;
+    margin: 10px 0;
+    color: darkblue;
+}
+.diferencias-single h2{
+    color: blue;
+    margin: 10px 0;
+    font-size: 23px;
+}
+.diferencias-single p{
+    color: black;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+
+
+
+
+@media screen and (max-widht:600px){
+    
+    .diferencias-single{
+        width: 100%;
+    }
+}
